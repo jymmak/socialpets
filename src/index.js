@@ -1,4 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { App } from './App'
 
-ReactDOM.render(<h1>Mi nombre es Jymma!</h1>, document.getElementById('container'));
+ReactDOM.render(<App />, document.getElementById('container'))
